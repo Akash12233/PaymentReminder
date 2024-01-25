@@ -1,0 +1,30 @@
+{
+  "name": "payment-reminder",
+  "version": "1.0.0",
+  "description": "This an Mongo-DB email generator",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config --experimental-json-modules ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "PaymentReminder",
+    "email"
+  ],
+  "author": "Akash Tayade",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cookieparser": "^0.1.0",
+    "cors": "^2.8.5",
+    "cron": "^3.1.6",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.1",
+    "nodemailer": "^6.9.8",
+    "nodemon": "^3.0.3",
+    "path": "^0.12.7"
+  }
+}
